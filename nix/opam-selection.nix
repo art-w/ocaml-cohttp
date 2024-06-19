@@ -798,7 +798,7 @@ in
         package = "packages/conf-pkg-config/conf-pkg-config.2";
         hash = "sha256:1rli6809glz5g9xwp4wsjidc39za4n58xcpkamy6fymfnqha225n";
       };
-      buildInputs = [ (pkgs.pkgconfig) ];
+      buildInputs = [ (pkgs.pkg-config) ];
     };
     core = 
     {

@@ -35,7 +35,7 @@ pkgs.mkShell {
   ];
   buildInputs = (with pkgs; [
     yarn
-    nodejs-22_x
+    nodejs_22
     ocamlPackages.ocaml-lsp
   ]) ++ [] ++ (with opam; [
     # test
